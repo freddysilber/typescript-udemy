@@ -4,7 +4,7 @@
   "description": "Learning Typescript from a Udemy course",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/freddysilber/typescript-udemy#readme",
   "devDependencies": {
+    "lite-server": "^2.5.4",
     "typescript": "^4.0.3"
   }
 }
