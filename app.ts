@@ -21,3 +21,16 @@ function combine(
 }
 
 console.log(combine(3, 5, 'as-number'))
+
+class Freddy {
+// 	private age: any;
+// 	private name;
+
+// 	constructor(private: name, private: age) {
+
+// 	}
+
+// 	private name() {
+// 		console.log(name)
+// 	}
+// }
