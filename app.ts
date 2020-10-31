@@ -22,15 +22,19 @@ function combine(
 
 console.log(combine(3, 5, 'as-number'))
 
-class Freddy {
-// 	private age: any;
-// 	private name;
+interface Person {
+	name: string,
+	age: number
 
-// 	constructor(private: name, private: age) {
+	greet(phrase: string): void
+}
 
-// 	}
-
-// 	private name() {
-// 		console.log(name)
-// 	}
-// }
+let user1: Person
+user1 = {
+	name: 'Freddy',
+	age: 21,
+	greet(phrase: string) {
+		console.log(phrase + ' ' + this.name)
+	}
+}
+user1.greet('Hi I am')
